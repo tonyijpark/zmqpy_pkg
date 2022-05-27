@@ -19,6 +19,8 @@ logging.basicConfig(
 
 recognition request server
 
+
+
 '''
 
 class FaceServer : 
