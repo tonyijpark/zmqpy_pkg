@@ -19,6 +19,7 @@ logging.basicConfig(
 
 recognition request server
 
+test commit
 
 
 '''
