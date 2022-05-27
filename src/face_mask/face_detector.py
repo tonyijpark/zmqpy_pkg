@@ -6,6 +6,11 @@ from openvino.inference_engine import IENetwork, IECore
 import numpy as np
 
 
+
+'''
+commit test
+'''
+
 class FaceDetector :
     def __init__(self, model_xml, model_bin, device, threshold) :
         open_vino_model = model_xml #'./face-detection-adas-0001.xml'
