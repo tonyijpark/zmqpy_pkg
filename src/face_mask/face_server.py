@@ -15,6 +15,12 @@ logging.basicConfig(
   level = logging.DEBUG
 )
 
+'''
+
+recognition request server
+
+'''
+
 class FaceServer : 
     def __init__(self) :
         context = zmq.Context()
