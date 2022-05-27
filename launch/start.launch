@@ -1,0 +1,4 @@
+<launch>
+    <node name="face_server" pkg="zmqpy_pkg" type="server.bash" respawn="false" output="screen" />
+    <node name="face_client" pkg="zmqpy_pkg" type="client.bash" respawn="false" output="screen" />
+</launch>

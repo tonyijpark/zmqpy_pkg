@@ -1,0 +1,12 @@
+<launch>
+    <node name="face_client" pkg="zmqpy_pkg" type="client.bash" respawn="false" output="screen">
+<!--
+        <param name="rgb_topic" value="/camera/rgb/image_raw"/>
+        <param name="depth_topic" value="/camera/depth/image_raw"/>
+        <param name="points_topic" value="/camera/depth/points"/>
+-->
+        <param name="rgb_topic" value="/camera/color/image_raw"/>
+        <param name="depth_topic" value="/camera/aligned_depth_to_color/image_raw"/>
+        <param name="points_topic" value="/camera/depth_registered/points"/>
+    </node>
+</launch>
